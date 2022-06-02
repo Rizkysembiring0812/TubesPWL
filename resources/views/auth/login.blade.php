@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+@section('page-title', 'Login')
 @section('content')
     <div class="container py-5">
         <h5 class="font-weight-light text-center">Masuk Sekarang!</h5>
