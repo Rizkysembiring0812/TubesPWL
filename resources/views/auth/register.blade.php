@@ -14,7 +14,7 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             <label class="small" for="">Alamat Email</label>
-                            <input type="email" placeholder="E-mail address"
+                            <input type="email" placeholder="Alamat Email"
                                 class="form-control @error('email') is-invalid @enderror" name="email"
                                 value="{{ old('email') }}" required autocomplete="email" autofocus>
                             @error('email')
@@ -26,7 +26,7 @@
                         <div class="form-group">
                             <label class="small" for="">Password</label>
                             <input type="password" name="password" value="{{ old('password') }}"
-                                placeholder="Password Minimum 8 characters"
+                                placeholder="Password Minimum 8 karakter"
                                 class="form-control @error('password') is-invalid @enderror" required>
                             @error('password')
                                 <span class="invalid-feedback" role="alert">
@@ -37,7 +37,7 @@
                         <div class="form-group">
                             <label class="small" for="">Konfirmasi Password</label>
                             <input type="password" name="password_confirmation" value="{{ old('password_confirmation') }}"
-                                placeholder="Confirm Password"
+                                placeholder="Konfirmasi Sandi"
                                 class="form-control @error('password_confirmation') is-invalid @enderror" required>
                             @error('password_confirmation')
                                 <span class="invalid-feedback" role="alert">
@@ -49,7 +49,7 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             <label class="small">Nama Lengkap</label>
-                            <input type="text" name="name" value="{{ old('name') }}" placeholder="Your full name"
+                            <input type="text" name="name" value="{{ old('name') }}" placeholder="Nama Lengkap Kamu"
                                 class="form-control @error('name') is-invalid @enderror" required>
                             @error('name')
                                 <span class="invalid-feedback" role="alert">
