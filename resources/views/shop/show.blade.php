@@ -38,7 +38,7 @@
                                 </div>
                                 <br>
                                 <a class="btn btn-success btn-md"
-                                    href="https://api.whatsapp.com/send/?phone=087747561364&text=Halo+Admin+Saya+ingin+membeli+produk+{{ $product->title }}+di+Bazmi+Shop"
+                                    href="https://api.whatsapp.com/send/?phone=+6287747561364&text=Halo+Admin+Saya+ingin+membeli+produk+{{ $product->title }}+di+Bazmi+Shop"
                                     target="_blank" role="button">
                                     <i class="fab fa-whatsapp"></i> Pesan Sekarang
                                 </a>
