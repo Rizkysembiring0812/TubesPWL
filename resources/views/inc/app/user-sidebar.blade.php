@@ -9,7 +9,7 @@
     </li>
     <li class="list-group-item-action list-group-item">
         <a href="{{ route('cart.index') }}">
-            <i class="fas fa-heart text-primary"></i> My Wishlist
+            <i class="fas fa-heart text-primary"></i> Favorit
         </a>
     </li>
     {{-- <li class="list-group-item-action list-group-item">

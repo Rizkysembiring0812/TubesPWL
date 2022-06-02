@@ -52,7 +52,7 @@
                                                 class="form-control" placeholder="Jumlah">
                                             <br>
                                             <button type="submit" class="btn btn-primary btn-md">
-                                                <i class="fas fa-heart"></i> Tambahkan ke Wishlist
+                                                <i class="fas fa-heart"></i> Tambahkan ke Favorit
                                             </button>
                                     </div>
                                 </div>

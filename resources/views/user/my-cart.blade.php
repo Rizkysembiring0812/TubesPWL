@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('page-title', 'My Wishlist')
+@section('page-title', 'Favorit')
 
 @section('content')
     <br><br>
@@ -11,7 +11,7 @@
             </div>
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
-                    <div class="panel-heading">My Wishlist</div>
+                    <div class="panel-heading">Favorit</div>
 
                     <div class="panel-body">
                         @if (session('status'))
@@ -39,7 +39,7 @@
                                                     <form action="/wishlist/{{ $item->id }}/destroy" method="GET">
                                                         {{ csrf_field() }}
                                                         {{ method_field('DELETE') }}
-                                                        <button type="submit" class="btn btn-danger">Remove</button>
+                                                        <button type="submit" class="btn btn-danger">Hapus</button>
                                                     </form>
                                                 </td>
                                             </tr>
